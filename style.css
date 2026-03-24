@@ -115,6 +115,27 @@ body {
   padding: 25px;
 }
 
+#header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#header img {
+  display: block;
+  width: 120px;
+  height: auto;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+.main-menu {
+  width: 100%;
+}
+
 /*footer {
   background: rgba(0,0,0,.8);
   padding: 25px;
