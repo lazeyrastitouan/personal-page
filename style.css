@@ -116,9 +116,10 @@ body {
 }
 
 #header {
-  display: flex;
-  align-items: stretch;   /* makes both columns same height */
-  gap: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  align-items: stretch;
 }
 
 .header-text {
@@ -131,14 +132,8 @@ body {
   margin: 0 0 10px 0;
 }
 
-.main-menu {
-  margin: 0;
-  padding: 0;
-}
-
 #header img {
   height: 100%;
-  max-height: 200px;   /* optional safety limit */
   width: auto;
   object-fit: contain;
   display: block;
