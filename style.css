@@ -101,17 +101,19 @@ body {
   margin:25px auto;
 }
 
-header {
-  background: transparent;
+#header {
+  background: transparent !important;
   padding: 25px;
   color: #FFFFFF;
 }
 
-#content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+#content,
+footer {
+  background: rgba(0,0,0,.8);
+  padding: 25px;
+  color: #FFFFFF;
 }
+
 iframe {
   max-width:100%;
 }
