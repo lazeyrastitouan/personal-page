@@ -118,7 +118,7 @@ body {
 #header {
   display: grid;
   grid-template-columns: auto 1fr;
-  column-gap: 20px;
+  column-gap: 70px;
   align-items: stretch;
 }
 
