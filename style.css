@@ -101,18 +101,25 @@ body {
   margin:25px auto;
 }
 
-#header {
-  background: transparent !important;
-  padding: 25px;
+#header,
+#content {
+  background: none !important;
   color: #FFFFFF;
 }
 
-#content,
-footer {
+#header {
+  padding: 25px 25px 15px 25px;
+}
+
+#content {
+  padding: 25px;
+}
+
+/*footer {
   background: rgba(0,0,0,.8);
   padding: 25px;
   color: #FFFFFF;
-}
+}*/
 
 iframe {
   max-width:100%;
