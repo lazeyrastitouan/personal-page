@@ -138,7 +138,7 @@ body {
 
 #header img {
   height: 100%;
-  max-height: 120px;   /* optional safety limit */
+  max-height: 60px;   /* optional safety limit */
   width: auto;
   object-fit: contain;
   display: block;
