@@ -118,7 +118,7 @@ body {
 #header {
   display: grid;
   grid-template-columns: auto 1fr;
-  column-gap: 150px;
+  column-gap: 400px;
   align-items: stretch;
 }
 
@@ -134,7 +134,7 @@ body {
 
 #header img {
   height: 100%;
-  max-height: 150px;
+  max-height: 250px;
   width: auto;
   object-fit: contain;
   display: block;
