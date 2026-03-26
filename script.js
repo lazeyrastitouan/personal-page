@@ -12,6 +12,16 @@
     // Remove any active classes on the main-menu
     $('.main-menu a').removeClass('active');
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
+
+    // Add a class to the body depending on the current section
+    $('body').removeClass('home-page research-page contact-page');
+    if (region === '#home') {
+      $('body').addClass('home-page');
+    } else if (region === '#research') {
+      $('body').addClass('research-page');
+    } else if (region === '#contact') {
+      $('body').addClass('contact-page');
+    }
     
     // Now show the region specified in the URL hash
     $(region).show();
