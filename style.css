@@ -111,7 +111,7 @@ body {
   padding: 25px 25px 15px 25px;
   display: grid;
   grid-template-columns: 1fr auto;
-  column-gap: 24px;
+  column-gap: 20px;
   align-items: start;
 }
 
@@ -140,7 +140,7 @@ body {
 }*/
 
 #header-photo {
-  height: 220px;
+  height: 260px;
   width: auto;
   display: none;
   object-fit: contain;
