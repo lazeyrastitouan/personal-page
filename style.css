@@ -132,11 +132,23 @@ body {
   margin: 0 0 10px 0;
 }
 
+/*<-- 
 #header img {
   height: 100%;
   max-height: 250px;
   width: auto;
   object-fit: contain;
+  display: block;
+}*/
+
+#header-photo {
+  height: 120px;
+  width: auto;
+  display: none;
+  object-fit: contain;
+}
+
+body.home-page #header-photo {
   display: block;
 }
 
