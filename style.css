@@ -111,7 +111,7 @@ body {
   padding: 25px 25px 15px 25px;
   display: grid;
   grid-template-columns: 1fr auto;
-  column-gap: 20px;
+  column-gap: 15px;
   align-items: start;
 }
 
