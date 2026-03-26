@@ -150,11 +150,11 @@ body.home-page #header-photo {
   display: block;
 }
 
-/*footer {
+footer {
   background: rgba(0,0,0,.8);
   padding: 25px;
   color: #FFFFFF;
-}*/
+}
 
 iframe {
   max-width:100%;
