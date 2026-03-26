@@ -140,7 +140,7 @@ body {
 }*/
 
 #header-photo {
-  height: 260px;
+  height: 350px;
   width: auto;
   display: none;
   object-fit: contain;
@@ -167,7 +167,7 @@ ul.main-menu {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 10px;
   list-style: none;
 }
 ul.main-menu li a {
